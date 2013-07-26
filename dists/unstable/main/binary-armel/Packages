@@ -1,0 +1,1302 @@
+Package: e17
+Version: 0.17.3-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 6089
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.11), libdbus-1-3 (>= 1.0.2), libecore-con1 (>= 1.7.7), libecore-evas1 (>= 1.7.7), libecore-file1 (>= 1.7.7), libecore-imf1 (>= 1.7.7), libecore-input1 (>= 1.7.7), libecore-ipc1 (>= 1.7.7), libecore-x1 (>= 1.7.7), libecore1 (>= 1.7.7), libedbus1 (>= 1.7.7), libedje1 (>= 1.7.4), libeet1 (>= 1.6.0), libefreet1 (>= 1.7.7), libeina1 (>= 1.7.4), libeio1 (>= 1.7.4), libevas1 (>= 1.7.7), libgcc1 (>= 1:4.4.0), libpam0g (>= 0.99.7.1), libxcb-keysyms1 (>= 0.3.9), libxcb-shape0, libxcb1, e17-data (= 0.17.3-1), libevas1-engine-software-x11, libedje-bin, dbus-x11
+Conflicts: enlightenment
+Provides: x-window-manager
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: x11
+Filename: pool/main/e/e17/e17_0.17.3-1_armel.deb
+Size: 2433570
+SHA256: 8d1a29cc91dbe69d02a2c657a884cfa27159175429502dbc64e8823f4fb50f4f
+SHA1: cf0928c0fe517953632714f92cd5bcf7377f3bbb
+MD5sum: d033000e7237bd361e23d01b883b992e
+Description: Enlightenment DR17 Window Manager
+ Enlightenment is an advanced window manager for X11. Unique
+ features include: a fully animated background, nice drop shadows
+ around windows, backed by an extremely clean and optimized
+ foundation of APIs.
+ .
+ This package contains the core files for Enlightenment DR17.
+
+Package: e17-data
+Source: e17
+Version: 0.17.3-1
+Architecture: all
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 28174
+Enhances: e17
+Conflicts: enlightenment-data
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: x11
+Filename: pool/main/e/e17/e17-data_0.17.3-1_all.deb
+Size: 25581426
+SHA256: e7f85c1a46cb60963a55eb992c962edc632c42d7fb267b20d00a38206854ac21
+SHA1: ab07c2430fe720cd14000e5694505071c33d45ff
+MD5sum: 2c77239055713b7ed09de2ede474196d
+Description: Enlightenment Window Manager Run Time Data Files
+ Enlightenment is an advanced window manager for X11. Unique
+ features include: a fully animated background, nice drop shadows
+ around windows, backed by an extremely clean and optimized
+ foundation of APIs.
+ .
+ These are the architecture independent runtime support files for the
+ Enlightenment DR17 Window Manager.
+
+Package: e17-dbg
+Source: e17
+Version: 0.17.3-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 15294
+Depends: e17 (= 0.17.3-1)
+Homepage: http://www.enlightenment.org
+Priority: extra
+Section: debug
+Filename: pool/main/e/e17/e17-dbg_0.17.3-1_armel.deb
+Size: 6402676
+SHA256: d3621ed641e0780a103dc40f28ff85b7009fb1615c9170b887809873501392a1
+SHA1: be6cbe3c221c9362e0882295d0fe5d50295e78b8
+MD5sum: 37fe5eb5328d880aa0cde5e472e31c61
+Description: Enlightenment DR17 Window Manager - debugging symbols
+ Enlightenment is an advanced window manager for X11. Unique
+ features include: a fully animated background, nice drop shadows
+ around windows, backed by an extremely clean and optimized
+ foundation of APIs
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat
+ easier to interpret core dumps. The libraries are installed in
+ /usr/lib/debug and are automatically used by gdb.
+
+Package: e17-dev
+Source: e17
+Version: 0.17.3-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 377
+Depends: e17 (= 0.17.3-1), libeet-dev (>= 1.7.4), libeio-dev (>= 1.7.4), libedje-dev (>= 1.7.4), libefreet-dev (>= 1.7.4), libecore-dev (>= 1.7.4), libedbus-dev (>= 1.7.4), libevas-dev (>= 1.7.4), libeina-dev (>= 1.7.4)
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: devel
+Filename: pool/main/e/e17/e17-dev_0.17.3-1_armel.deb
+Size: 87160
+SHA256: 0538817949200d771dbe10119a0731e36272cdb4d1172bfafa203ffa7835a967
+SHA1: 391655f0a6305623df98966c4787e332efa8514c
+MD5sum: 1538ba4a393248cf15ac36007ff40548
+Description: Enlightenment headers, static libraries and documentation
+ Enlightenment is an advanced window manager for X11. Unique
+ features include: a fully animated background, nice drop shadows
+ around windows, backed by an extremely clean and optimized
+ foundation of APIs.
+ .
+ This package contains headers, static libraries and documentation for
+ enlightenment.
+
+Package: libecore-con1
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 148
+Pre-Depends: multiarch-support
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libecore1 (>= 1.7.7), libeina1 (>= 1.2.0), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.12.0), libgnutls26 (>= 2.12.17-0)
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/ecore/libecore-con1_1.7.7-1_armel.deb
+Size: 60708
+SHA256: 363bcf908a6e983009e263b8a161732cbb82c378ab2f4079648b3f9ccd095552
+SHA1: 5c901b86b3df59ee9bc39c08170443b1b8c6c7d1
+MD5sum: d84c2388892a9a6232f3b7e45717b3d6
+Description: Ecore Connection Library
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+ .
+ This package contains the Ecore Connection Library.
+
+Package: libecore-dbg
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 966
+Depends: libecore1 (= 1.7.7-1)
+Recommends: libecore-con1 (= 1.7.7-1), libecore-evas1 (= 1.7.7-1), libecore-fb1 (= 1.7.7-1), libecore-file1 (= 1.7.7-1), libecore-imf1 (= 1.7.7-1), libecore-ipc1 (= 1.7.7-1), libecore-x1 (= 1.7.7-1)
+Homepage: http://enlightenment.org
+Priority: extra
+Section: debug
+Filename: pool/main/e/ecore/libecore-dbg_1.7.7-1_armel.deb
+Size: 682526
+SHA256: f8bec7b3854eba16985dab99cbec69bf2215cd188980d64a4ca6d7a1936f1c69
+SHA1: 738beeca95a6bd097cb286b2f293c31d72189060
+MD5sum: 5cf9458d1b901c662fed83800abce6af
+Description: Debugging symbols for libecore
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat easier
+ to interpret core dumps. The libraries are installed in /usr/lib/debug and
+ are automatically used by gdb.
+
+Package: libecore-dev
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 1666
+Depends: libecore1 (= 1.7.7-1), libecore-con1 (= 1.7.7-1), libecore-evas1 (= 1.7.7-1), libecore-fb1 (= 1.7.7-1), libecore-file1 (= 1.7.7-1), libecore-imf1 (= 1.7.7-1), libecore-ipc1 (= 1.7.7-1), libecore-x1 (= 1.7.7-1), libevas-dev (>= 1.7.4), libeina-dev (>= 1.2.0), libgnutls-dev, libcurl4-gnutls-dev, libxcursor-dev, libxss-dev, libxrender-dev, libxinerama-dev, libxrandr-dev, libxext-dev, libxi-dev, libxp-dev, libxcomposite-dev, libxdamage-dev, x11proto-xext-dev, libxtst-dev, libglib2.0-dev, libc-ares-dev, pkg-config
+Suggests: libecore-doc
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/ecore/libecore-dev_1.7.7-1_armel.deb
+Size: 467508
+SHA256: f3829f0fba9e2be38228407f033830113588045508206b8f2e1638ae4c544748
+SHA1: 2e17ff45248ce85350cb6c8b3ba1efe99be065ff
+MD5sum: 84039817509f2315f6fb95d8893ee65c
+Description: Ecore headers and static libraries
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+ .
+ This package contains headers and static libraries for the Ecore library.
+
+Package: libecore-doc
+Source: ecore
+Version: 1.7.7-1
+Architecture: all
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 6799
+Enhances: libecore-dev
+Homepage: http://enlightenment.org
+Priority: optional
+Section: doc
+Filename: pool/main/e/ecore/libecore-doc_1.7.7-1_all.deb
+Size: 2769730
+SHA256: f70352c7b5292632ce6dfc16dddfe66ca73d6a633bcf344ed251a372e7ef8b5b
+SHA1: 8381d6664d2dbb9bb59c260cb3108a27295c2cd6
+MD5sum: 6c3c367928ad3f72d012103384fa362b
+Description: Ecore API Documentation
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+ .
+ This package provides development documentation (html and manpages)for the
+ Ecore library.
+
+Package: libecore-evas1
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 189
+Pre-Depends: multiarch-support
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libecore-con1 (>= 1.7.7), libecore-fb1 (>= 1.7.7), libecore-input1 (>= 1.7.7), libecore-ipc1 (>= 1.7.7), libecore-x1 (>= 1.7.7), libecore1 (>= 1.7.7), libeina1 (>= 1.0.0~beta), libevas1 (>= 1.7.7), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.12.0), libgnutls26 (>= 2.12.17-0), libx11-6, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxinerama1, libxp6, libxrandr2, libxrender1, libxss1, libxtst6
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/ecore/libecore-evas1_1.7.7-1_armel.deb
+Size: 73246
+SHA256: 30f60be5cebc4924f28e261e5949ab9278e2cdc4c7eac8a8dfc322252b70947f
+SHA1: f02d108d846a7631efb70ad4d3e63c07f2293165
+MD5sum: e3607fcdabfdb65107d57e0f04516ff1
+Description: Ecore Evas Wrapper Library
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+ .
+ This package contains the Ecore Evas wrapper functions.
+
+Package: libecore-fb1
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 79
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libecore-input1 (>= 1.7.7), libecore1 (>= 1.7.7), libeina1 (>= 1.0.0~beta), libglib2.0-0 (>= 2.12.0)
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/ecore/libecore-fb1_1.7.7-1_armel.deb
+Size: 30870
+SHA256: 7f98cba68be4453f6bc963832911c7f6411af2a19ecf6dbf50f9d941bae9f368
+SHA1: 36f2c9476b956b99a3c0542e6b4012f03773375e
+MD5sum: 00ff045abb8ead6b23d3f18088a7588d
+Description: Ecore frame buffer system functions
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+ .
+ This package contains the Ecore frame buffer system functions.
+
+Package: libecore-file1
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 75
+Pre-Depends: multiarch-support
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libecore-con1 (>= 1.7.7), libecore1 (>= 1.7.7), libeina1 (>= 1.0.0~beta), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.12.0), libgnutls26 (>= 2.12.17-0)
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/ecore/libecore-file1_1.7.7-1_armel.deb
+Size: 30150
+SHA256: 6ab1f291861c82895f04dc4f95e634c47bac396ef4c990a6bbca58e23ed42434
+SHA1: 80f47aed60038f8d54b1619dd961161d0329d42f
+MD5sum: 2a2c96cdd553f5dd2fc96181e03e0a83
+Description: Ecore File Library
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+ .
+ This package contains the Ecore File Library.
+
+Package: libecore-imf1
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 110
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libecore-input1 (>= 1.7.7), libecore-x1 (>= 1.7.7), libecore1 (>= 1.7.7), libeina1 (>= 1.2.0), libevas1 (>= 1.7.7), libglib2.0-0 (>= 2.12.0), libx11-6, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxinerama1, libxp6, libxrandr2, libxrender1, libxss1, libxtst6
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/ecore/libecore-imf1_1.7.7-1_armel.deb
+Size: 36664
+SHA256: 6799209e76847a8fba699839b63546d5651e88f294b8a73457bc8a111fffbca9
+SHA1: 726c542fb39b8cfa825d2c0645bff0a0389a6ca9
+MD5sum: 6124ce2ab013793aacdbec9519f0a108
+Description: Ecore Input Method Framework module
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+ .
+ This package contains the Ecore Input Method Framework module, and the Evas
+ helper functions for it.
+
+Package: libecore-input1
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 236
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libecore1 (>= 1.7.7), libeina1 (>= 1.0.0~beta), libevas1 (>= 1.7.7), libglib2.0-0 (>= 2.12.0)
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/ecore/libecore-input1_1.7.7-1_armel.deb
+Size: 61512
+SHA256: b51d357ba438142b5de92e55fc080969f9f206f55f8b456f4832e43f390a147c
+SHA1: f765297a0a78e27d3f767fd439203080e42f7f13
+MD5sum: 51cabdeca43dce2f5b90b5e6b9f943b0
+Description: Ecore input module
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+ .
+ This package contains the Ecore input module.
+
+Package: libecore-ipc1
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 75
+Pre-Depends: multiarch-support
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libecore-con1 (>= 1.7.7), libecore1 (>= 1.7.7), libeina1 (>= 1.0.0~beta), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.12.0), libgnutls26 (>= 2.12.17-0)
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/ecore/libecore-ipc1_1.7.7-1_armel.deb
+Size: 27690
+SHA256: 6a82bf2eead95c6122fa657fa5ff47f6f02fb2ba29566545ab6ed418415650c4
+SHA1: 8eb9c5f00a0debd82cd8c94724a738aca98afe65
+MD5sum: 00c5740774ed120716cc01e450e1c843
+Description: Ecore inter-process communication functions
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+ .
+ This package contains the Ecore inter-process communication functions.
+
+Package: libecore-x1
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 270
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libecore-input1 (>= 1.7.7), libecore1 (>= 1.7.7), libeina1 (>= 1.0.0~beta), libglib2.0-0 (>= 2.12.0), libx11-6 (>= 2:1.2.99.901), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxp6, libxrandr2 (>= 2:1.2.99.3), libxrender1, libxss1, libxtst6
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/ecore/libecore-x1_1.7.7-1_armel.deb
+Size: 109226
+SHA256: 11a235ccc8b8d117bbe9c2dced328e358129a1ec1209a60e8d8cb22ef5b0bb8b
+SHA1: f4cafbefaf803c2ab561aa745db9891cb13805c7
+MD5sum: ab726c506431f6938be2c3fd3af08e34
+Description: Ecore functions for dealing with the X Windows System
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+ .
+ This package contains the Ecore wrapper and convenience functions for using
+ the X Windows System.
+
+Package: libecore1
+Source: ecore
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 164
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libeina1 (>= 1.2.0), libglib2.0-0 (>= 2.31.8)
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/ecore/libecore1_1.7.7-1_armel.deb
+Size: 71600
+SHA256: a53b87e0fb5f2835019151fdf2a4edc400b7ed83acc7ecfce81105c5144a37e1
+SHA1: 22590e66fa353c9943bcaef7e90aa1f53b4f4af4
+MD5sum: ad06f91dd55a2d757cc0e1bffe113868
+Description: Core abstraction layer for enlightenment DR 0.17
+ This is the core event abstraction layer and X abstraction layer that makes
+ doing selections, Xdnd, general X stuff, and event loops, timeouts and idle
+ handlers fast, optimized, and convenient. It's a separate library so anyone
+ can make use of the work put into Ecore to make this job easy for
+ applications.
+
+Package: libedbus-dev
+Source: edbus
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 448
+Depends: libedbus1 (= 1.7.7-1), libdbus-1-dev, libeina-dev (>= 1.0.0~), libecore-dev (>= 1.2.0), libevas-dev (>= 1.2.0)
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/edbus/libedbus-dev_1.7.7-1_armel.deb
+Size: 117420
+SHA256: 8a1839474c3c304a87516d9d481031bb7febfced97d38d51c92670b421ae0f5a
+SHA1: edee04a0de6ba41837ae6e02199d2b07404d2e2c
+MD5sum: 951fc2fc9f3726f5ba52ceeca05aaf25
+Description: D-Bus and HAL wrapper libraries for use with the EFL - Development files
+ Wrappers around D-Bus to ease integrating D-Bus with EFL based applications.
+ .
+ This package contains headers and static libraries for libedbus, libehal and
+ libenotify
+
+Package: libedbus1
+Source: edbus
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 303
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.1.1), libecore1 (>= 1.7.7), libeina1 (>= 1.0.0~beta), libevas1 (>= 1.7.7)
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/edbus/libedbus1_1.7.7-1_armel.deb
+Size: 106006
+SHA256: 47091711e6f912c3be25413ed14fe1111be4dc8a2b55e476a20356e9ff6be6b5
+SHA1: b726374fcb958ce9659c2e6b27dc4d2efeed059b
+MD5sum: 671d154a35c90f4ff0e61b33f40e02fa
+Description: D-Bus and HAL wrapper libraries for use with the EFL
+ This package contains:
+  - libedbus0 and libehal0 : D-Bus and HAL-related wrappers to ease integrating
+    D-Bus and HAL with EFL-based applications
+  - libenotify0 : provides an EFL-based notification support
+
+Package: libedje-bin
+Source: edje
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 388
+Depends: libc6 (>= 2.7), libecore-evas1 (>= 1.7.7), libecore-file1 (>= 1.7.7), libecore1 (>= 1.7.7), libedje1 (>= 1.7.4), libeet1 (>= 1.2.3), libeina1 (>= 1.7.4), libevas1 (>= 1.7.7), liblua5.1-0, libembryo-bin (>= 0.9.9.050+svn20090204), libevas1-engine-buffer
+Homepage: http://enlightenment.org
+Priority: optional
+Section: devel
+Filename: pool/main/e/edje/libedje-bin_1.7.7-1_armel.deb
+Size: 153110
+SHA256: 5a7decae96c239cf43af284261f974c08d531797596c6d5ca0312fa0464bcb13
+SHA1: ffa720aa7e5d713c117087613ab7513f63c814de
+MD5sum: ae81941ca527610c89320676d9a4e11c
+Description: Various binaries for use with libedje
+ Edje is a graphical layout and animation library for animated resizable,
+ compressed and scalable themes. It is the theming engine behind
+ Enlightenment DR 0.17.
+ .
+ This package contains the following binaries:
+  - edje_cc: Compiles EDC files.
+  - edje_decc: Used to decompile compiled edje files.
+  - edje_recc: A convenience script to recompile EDC files.
+
+Package: libedje-dbg
+Source: edje
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 1895
+Depends: libedje1 (= 1.7.7-1)
+Homepage: http://enlightenment.org
+Priority: extra
+Section: debug
+Filename: pool/main/e/edje/libedje-dbg_1.7.7-1_armel.deb
+Size: 765888
+SHA256: 27e216613f4b4bf93a36847cdc7a8a620b6f2ef69b8ac1ab26147bfb4842af6c
+SHA1: d8c6f66938a421f41287be09b69e64f08ef5b3bd
+MD5sum: 44ee37e67edb4d9238cce17140ca8f32
+Description: Debugging symbols for libedje
+ Edje is a graphical layout and animation library for animated resizable,
+ compressed and scalable themes. It is the theming engine behind
+ Enlightenment DR 0.17.
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat
+ easier to interpret core dumps. The libraries are installed in
+ /usr/lib/debug and are automatically used by gdb.
+
+Package: libedje-dev
+Source: edje
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 1001
+Depends: libedje1 (= 1.7.7-1), libedje-bin, libeet-dev (>= 1.7.4), libembryo-dev (>= 1.7.4), libevas-dev (>= 1.7.4), libecore-dev (>= 1.7.4), libeina-dev (>= 1.7.4), liblua5.1-0-dev, pkg-config
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/edje/libedje-dev_1.7.7-1_armel.deb
+Size: 291680
+SHA256: d2e50626d271961a1485595567e844b02a7b8d16fa7e6f55fd9623b1b5080e37
+SHA1: 6c002a2159dfe18f46a452d871d8dd6cb964b748
+MD5sum: aaa152708d182e433fced9e7d7dd24bd
+Description: libedje headers and static libraries
+ Edje is a graphical layout and animation library for animated resizable,
+ compressed and scalable themes. It is the theming engine behind
+ Enlightenment DR 0.17.
+ .
+ This package provides headers and static libraries for Edje.
+
+Package: libedje-doc
+Source: edje
+Version: 1.7.7-1
+Architecture: all
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 10399
+Enhances: libedje-dev
+Homepage: http://enlightenment.org
+Priority: optional
+Section: doc
+Filename: pool/main/e/edje/libedje-doc_1.7.7-1_all.deb
+Size: 1410182
+SHA256: 7e910bda4c6e205c4766cd6fa1eb1771ce2c40a6581d2058f21a3f2493db51c7
+SHA1: 82fa83e5451d47ff65f0826c070ae1652c4c2224
+MD5sum: 0875ea358db0b308dd15c2c35ce101bd
+Description: libedje0 development documentation
+ Edje is a graphical layout and animation library for animated resizable,
+ compressed and scalable themes. It is the theming engine behind
+ Enlightenment DR 0.17.
+ .
+ This package provides development documentation for Edje.
+
+Package: libedje1
+Source: edje
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 523
+Depends: libc6 (>= 2.4), libecore-evas1 (>= 1.7.7), libecore-file1 (>= 1.7.7), libecore-imf1 (>= 1.7.7), libecore-input1 (>= 1.7.7), libecore1 (>= 1.7.7), libeet1 (>= 1.2.3), libeina1 (>= 1.2.0), libeio1 (>= 1.7.4), libembryo1 (>= 0.9.1.042), libevas1 (>= 1.7.7), liblua5.1-0
+Suggests: libedje-bin (= 1.7.7-1)
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/edje/libedje1_1.7.7-1_armel.deb
+Size: 208936
+SHA256: a15c215d92f6c9390808ea3897bd28c0712df03f66bdd625c6a73b8d7b83e5ca
+SHA1: 4bb3957da5e2e7041c9bbf1b6e090e158b27c07d
+MD5sum: 6bb68d8ae16951aa89a977acde131eb0
+Description: Graphical layout and animation library
+ Edje is a graphical layout and animation library for animated resizable,
+ compressed and scalable themes. It is the theming engine behind
+ Enlightenment DR 0.17.
+
+Package: libeet-bin
+Source: eet
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 64
+Depends: libc6 (>= 2.4), libeet1 (>= 1.6.0), libeina1 (>= 1.0.0~beta)
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/eet/libeet-bin_1.7.7-1_armel.deb
+Size: 18900
+SHA256: ccee944ce1d0646a0026158c34f5cf8b3d274fe073cc9f8eeafb2ce7c8e46144
+SHA1: bfcea7aa4e7462cd9ef08ffb99badabd9e47b1c3
+MD5sum: 9f3f58997bd9e2e813f7c3b8a1fe80ab
+Description: Enlightenment DR17 file chunk reading/writing utility
+ Eet is a tiny library designed to write an arbitrary set of chunks of data to a
+ file and optionally compress each chunk (very much like a zip file) and allows
+ fast random-access reading of the file later on. It does not do zip as zip
+ itself has more complexity than needed, and it was much simpler to implement
+ this once here.
+ .
+ This package contains eet, an utility that allows you to extract, insert,
+ encode and decode config blobs created with libeet.
+
+Package: libeet-dbg
+Source: eet
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 215
+Depends: libeet1 (= 1.7.7-1)
+Homepage: http://www.enlightenment.org
+Priority: extra
+Section: debug
+Filename: pool/main/e/eet/libeet-dbg_1.7.7-1_armel.deb
+Size: 152570
+SHA256: cbc92bfd3b3984220f9ef226abffb6d367c6bf1923b05d66e9fadc1271ca60e8
+SHA1: 7294bd34cb03e671ba3e6c1ee4d4d7cd68aac0d5
+MD5sum: f4009735ea11df0ea02c7d147090c2b5
+Description: E17 file chunk reading/writing library - debug symbols
+ Eet is a tiny library designed to write an arbitrary set of chunks of data to a
+ file and optionally compress each chunk (very much like a zip file) and allows
+ fast random-access reading of the file later on. It does not do zip as zip
+ itself has more complexity than needed, and it was much simpler to implement
+ this once here
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat easier
+ to interpret core dumps. The libraries are installed in /usr/lib/debug and
+ are automatically used by gdb.
+
+Package: libeet-dev
+Source: eet
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 357
+Depends: libeet1 (= 1.7.7-1), libjpeg-dev, libeina-dev (>= 1.2.0), libgnutls-dev, pkg-config
+Recommends: libeet-doc
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/eet/libeet-dev_1.7.7-1_armel.deb
+Size: 103980
+SHA256: 2ce5b4bb581a1b7ec5acc3f7184b7a23dedc7231b2111df479c65cd2ad13ad3b
+SHA1: ae4b86cf3f21bf280da0d1df15f5d987a657128c
+MD5sum: 0b90ef7a97a77822156ee281e544abb0
+Description: Enlightenment DR17 file chunk reading/writing library development files
+ Eet is a tiny library designed to write an arbitrary set of chunks of data to a
+ file and optionally compress each chunk (very much like a zip file) and allows
+ fast random-access reading of the file later on. It does not do zip as zip
+ itself has more complexity than needed, and it was much simpler to implement
+ this once here.
+ .
+ This package contains headers and static libraries for development with libeet.
+
+Package: libeet-doc
+Source: eet
+Version: 1.7.7-1
+Architecture: all
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 1849
+Enhances: libeet-dev
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: doc
+Filename: pool/main/e/eet/libeet-doc_1.7.7-1_all.deb
+Size: 413586
+SHA256: 382b8d8bb4a5e49a51403bca3492350ea9d33ddaf3bb0e6f984672f58fad68e0
+SHA1: 29ce541080135ebd802e06778458a1dce13ee47a
+MD5sum: edfe681e18c43e161ec90a447348e6f8
+Description: libeet1 API documentation
+ Eet is a tiny library designed to write an arbitrary set of chunks of data to a
+ file and optionally compress each chunk (very much like a zip file) and allows
+ fast random-access reading of the file later on. It does not do zip as zip
+ itself has more complexity than needed, and it was much simpler to implement
+ this once here.
+ .
+ This package contains documentation (html and manpages) for development with
+ libeet.
+
+Package: libeet1
+Source: eet
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 156
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.11), libeina1 (>= 1.2.0), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libjpeg8 (>= 8c), zlib1g (>= 1:1.1.4)
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/eet/libeet1_1.7.7-1_armel.deb
+Size: 66558
+SHA256: 6964252a535fcb6f07391744fc77c91e98d16e4a7a47c1a054fcd41b5b33e30f
+SHA1: ec835f5fbca6c97d96954f5a25495e89974a8d1e
+MD5sum: 2b952d7fcaf5cef1f6fe6eaa92046308
+Description: Enlightenment DR17 file chunk reading/writing library
+ Eet is a tiny library designed to write an arbitrary set of chunks of data to a
+ file and optionally compress each chunk (very much like a zip file) and allows
+ fast random-access reading of the file later on. It does not do zip as zip
+ itself has more complexity than needed, and it was much simpler to implement
+ this once here.
+ .
+ It's small, fast, and does a job. It's heavily commented and fully documented.
+
+Package: libefreet-dev
+Source: efreet
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 296
+Depends: libefreet1 (= 1.7.7-1), libecore-dev (>= 1.7.4), libeina-dev (>= 1.7.4)
+Suggests: libefreet-doc
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/efreet/libefreet-dev_1.7.7-1_armel.deb
+Size: 91102
+SHA256: b384032cf48419709280084b9f5a9b7d282e9707cf210022ad72e6e0af0c8386
+SHA1: 6503bda890b1438ea30f99813f33d8d1221da708
+MD5sum: e942b4554beb0abb82a8ea1828e37c0d
+Description: Development files for libefreet and libefreet-mime
+ An implementation of several specifications from freedesktop.org intended for
+ use in Enlightenment DR17 (e17) and other applications using the Enlightenment
+ Foundation Libraries (EFL). Currently, the following specifications are
+ included:
+  - Base Directory
+  - Desktop Entry
+  - Icon Theme
+  - Menu
+ .
+ This package contains headers and static libraries for Efreet.
+
+Package: libefreet-doc
+Source: efreet
+Version: 1.7.7-1
+Architecture: all
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 748
+Enhances: libefreet-dev
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: doc
+Filename: pool/main/e/efreet/libefreet-doc_1.7.7-1_all.deb
+Size: 149714
+SHA256: 68295c26c43e1d0b2ee744ef91d3ff07e05d65415d42ae784bbda72028ce4122
+SHA1: 2f7607ee4dad7b671f77c444c4a04fbfc55c47d6
+MD5sum: 023d5a0b35370de5bae198e63326f1ab
+Description: libefreet and libfreet-mime API documentation
+ An implementation of several specifications from freedesktop.org intended for
+ use in Enlightenment DR17 (e17) and other applications using the Enlightenment
+ Foundation Libraries (EFL). Currently, the following specifications are
+ included:
+  - Base Directory
+  - Desktop Entry
+  - Icon Theme
+  - Menu
+ .
+ This package contains HTML documentation for development with libefreet and
+ libefreet-mime.
+
+Package: libefreet1
+Source: efreet
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 248
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libecore-file1 (>= 1.7.7), libecore1 (>= 1.7.7), libeet1 (>= 1.2.3), libeina1 (>= 1.7.4)
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/efreet/libefreet1_1.7.7-1_armel.deb
+Size: 92768
+SHA256: 7a47e94f3b9a5902230607eaa29ba4b9cd9052ad6777599f971549db7472328d
+SHA1: 3b53bcc2912ed3fe08003b53e49f1a90875da781
+MD5sum: 63db9097d1ad24e6204804a85d48887e
+Description: Library that implements freedesktop.org specs for use with E17/EFL
+ An implementation of several specifications from freedesktop.org intended for
+ use in Enlightenment DR17 (e17) and other applications using the Enlightenment
+ Foundation Libraries (EFL). Currently, the following specifications are
+ included:
+  - Base Directory
+  - Desktop Entry
+  - Icon Theme
+  - Menu
+ .
+ This package provides the libefreet0 and libefreet0-mime libraries, which
+ contains efreet-based functions for dealing with mime.
+
+Package: libeina-dbg
+Source: eina
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 834
+Depends: libeina1 (= 1.7.7-1)
+Homepage: http://www.enlightenment.org
+Priority: extra
+Section: debug
+Filename: pool/main/e/eina/libeina-dbg_1.7.7-1_armel.deb
+Size: 303788
+SHA256: d2e5d005fe3530b258735309272a59360fa27438302fb819606a501cc7873bac
+SHA1: b27ea9450b8f6a6004667426606d0dd8ace2fc3c
+MD5sum: 130547a745a26e9f0c91a6942884dbff
+Description: debugging symbols for use with libeina
+ Eina is a multi-platform library that provides optimized data types and a few
+ tools. It supports the following data types:
+  - Array
+  - Hash Table
+  - Double-linked list
+  - Red-black tree
+  - Shared string
+  - Access Content types
+    + Accessor: can access items of a container randomly
+    + Iterator: can access items of a container sequentially
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat easier
+ to interpret core dumps. The libraries are installed in /usr/lib/debug and
+ are automatically used by gdb.
+
+Package: libeina-dev
+Source: eina
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 1282
+Depends: libeina1 (= 1.7.7-1), pkg-config
+Recommends: libeina-doc
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/eina/libeina-dev_1.7.7-1_armel.deb
+Size: 312830
+SHA256: 5cca790f88745f76e73acbfd4ff6dffb83043ce3812d20f16031fd6c3a60deb3
+SHA1: 4a359e5359174280ab52d19ee186c24f6fb3f5df
+MD5sum: bdef5fa5c321df5616ecbd295bf5c84a
+Description: Development files for libeina
+ Eina is a multi-platform library that provides optimized data types and a few
+ tools. It supports the following data types:
+  - Array
+  - Hash Table
+  - Double-linked list
+  - Red-black tree
+  - Shared string
+  - Access Content types
+    + Accessor: can access items of a container randomly
+    + Iterator: can access items of a container sequentially
+ .
+ This package contains headers and static libraries for development with
+ libeina.
+
+Package: libeina-doc
+Source: eina
+Version: 1.7.7-1
+Architecture: all
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 13005
+Enhances: libeina-dev
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: doc
+Filename: pool/main/e/eina/libeina-doc_1.7.7-1_all.deb
+Size: 9466546
+SHA256: d70cfe45b7159bb5e1d0717481bcc6b2786d650f5190732b2d6ecec0b973e320
+SHA1: 6f6a7b3d42156751f97502b4252b4aadabbf62a9
+MD5sum: 6bfe2719e3f6c87539743a20892a74b9
+Description: Documentation for use with libeina
+ Eina is a multi-platform library that provides optimized data types and a few
+ tools. It supports the following data types:
+  - Array
+  - Hash Table
+  - Double-linked list
+  - Red-black tree
+  - Shared string
+  - Access Content types
+    + Accessor: can access items of a container randomly
+    + Iterator: can access items of a container sequentially
+ .
+ This package contains documentation for libeina.
+
+Package: libeina1
+Source: eina
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 382
+Depends: libc6 (>= 2.8), libgcc1 (>= 1:4.4.0)
+Conflicts: libeina0
+Breaks: libeet1 (<= 1.4.0~beta+1.4.0)
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/eina/libeina1_1.7.7-1_armel.deb
+Size: 157328
+SHA256: 5e65b6dc0e62b3aefb36eb587a24812ed4f799e719f217fe877e2edd604321c3
+SHA1: 027318e53ae44de657e87b707753ffb91cea89f0
+MD5sum: 5b69d78fbf258ad320cd4265ea291ae4
+Description: Enlightenment Foundation Library providing optimized data types
+ Eina is a multi-platform library that provides optimized data types and a few
+ tools. It supports the following data types:
+  - Array
+  - Hash Table
+  - Double-linked list
+  - Red-black tree
+  - Shared string
+  - Access Content types
+    + Accessor: can access items of a container randomly
+    + Iterator: can access items of a container sequentially
+
+Package: libeio-dbg
+Source: eio
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 117
+Depends: libeio1 (= 1.7.7-1)
+Homepage: http://enlightenment.org
+Priority: extra
+Section: debug
+Filename: pool/main/e/eio/libeio-dbg_1.7.7-1_armel.deb
+Size: 61694
+SHA256: 7b735e30f72d3b1428acdc76d51c88350434832b928569a1bbef1601ce98bc3f
+SHA1: 42c093d6b94e1bd38bf576a4190c0a7533daa646
+MD5sum: 358fdb51b9a66611740e69ba011a455c
+Description: Debugging symbols for libeio
+ This library is part of the Enlightenment Foundation Libraries (EFL). It is
+ intended to provide non-blocking IO by using thread for all operations that
+ may block. It should integrate all the features/functions of Ecore_File that
+ could block.
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat easier
+ to interpret core dumps. The libraries are installed in /usr/lib/debug and
+ are automatically used by gdb.
+
+Package: libeio-dev
+Source: eio
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 193
+Depends: libeio1 (= 1.7.7-1), libeina-dev (>= 1.7.4), libeet-dev (>= 1.7.4), libecore-dev (>= 1.7.4)
+Suggests: libeio-doc
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/eio/libeio-dev_1.7.7-1_armel.deb
+Size: 41680
+SHA256: d8e78e12630f5d0b22a1a8a6587cd9cd22bc67becfc3c532711143c4f4d8c041
+SHA1: b8af46b1a8448f30d7a9790efc41eb04db23d6f5
+MD5sum: b2487d38edb576a584cb4dae909f4d84
+Description: EIO headers and static libraries
+ This library is part of the Enlightenment Foundation Libraries (EFL). It is
+ intended to provide non-blocking IO by using thread for all operations that
+ may block. It should integrate all the features/functions of Ecore_File that
+ could block.
+ .
+ This package contains headers and static libraries for the EIO library.
+
+Package: libeio-doc
+Source: eio
+Version: 1.7.7-1
+Architecture: all
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 473
+Enhances: libeio-dev
+Homepage: http://enlightenment.org
+Priority: optional
+Section: doc
+Filename: pool/main/e/eio/libeio-doc_1.7.7-1_all.deb
+Size: 70344
+SHA256: d59f6cf63d181d42adc4a73bca86e351baed05e5b01144db572e5e6f7bbb2013
+SHA1: 241f950fc680b09b31b03d453edb0e5be0c36d92
+MD5sum: fd35337fcfb81307515eb32503e370b6
+Description: EIO API Documentation
+ This library is part of the Enlightenment Foundation Libraries (EFL). It is
+ intended to provide non-blocking IO by using thread for all operations that
+ may block. It should integrate all the features/functions of Ecore_File that
+ could block.
+ .
+ This package provides development documentation (html and manpages)for the
+ EIO library.
+
+Package: libeio1
+Source: eio
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 107
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.5), libecore1 (>= 1.7.7), libeet1 (>= 1.3.2), libeina1 (>= 1.2.0)
+Homepage: http://enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/eio/libeio1_1.7.7-1_armel.deb
+Size: 31750
+SHA256: a233dde0d69c340e22eb5eee7cb5d7e0c6c7f63b6b7a212bdf9cdd98052df9d9
+SHA1: a531ee87360e6e8c1d4cd5f11a77eb15076cc515
+MD5sum: 23738bb940fa5f339440bbcf65b99198
+Description: Library providing non-blocking I/O using threads
+ This library is part of the Enlightenment Foundation Libraries (EFL). It is
+ intended to provide non-blocking IO by using thread for all operations that
+ may block. It should integrate all the features/functions of Ecore_File that
+ could block.
+
+Package: libembryo-bin
+Source: embryo
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 180
+Depends: libc6 (>= 2.11), libeina1 (>= 1.2.0), libembryo1 (>= 0.9.1.042)
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: devel
+Filename: pool/main/e/embryo/libembryo-bin_1.7.7-1_armel.deb
+Size: 71474
+SHA256: 30882802ed6475965febae44e7a62dbdaa6800cb3475eefa13b664ab6a0b4f38
+SHA1: 713c91fc97eaacab9c7bdca67ea80d9d832a6499
+MD5sum: a9b05c117d5e685156fdb99038b9e612
+Description: SMALL compiler creating Embryo bytecode
+ Embryo is primarily a shared library that gives you an API to load
+ and control interpreted programs compiled into an abstract machine
+ bytecode that it understands.  This abstract (or virtual) machine is
+ similar to a real machine with a CPU, but it is emulated in
+ software
+ .
+ This package contains the embryo compiler: embryo_cc.
+
+Package: libembryo-dbg
+Source: embryo
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 198
+Depends: libembryo1 (= 1.7.7-1)
+Homepage: http://www.enlightenment.org
+Priority: extra
+Section: debug
+Filename: pool/main/e/embryo/libembryo-dbg_1.7.7-1_armel.deb
+Size: 128634
+SHA256: 6a102c06328581bf498d53b3d48a63628a6a5d3aabce4ac798803844639c4878
+SHA1: 3efacbe3e2a2eebb487b2bf4d44c3fd9a45a3e5e
+MD5sum: 8bdd08d0796d4238569fe73c5d52081f
+Description: Debugging symbols for libembryo
+ Embryo is primarily a shared library that gives you an API to load
+ and control interpreted programs compiled into an abstract machine
+ bytecode that it understands.  This abstract (or virtual) machine is
+ similar to a real machine with a CPU, but it is emulated in
+ software
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat
+ easier to interpret core dumps. The libraries are installed in
+ /usr/lib/debug and are automatically used by gdb.
+
+Package: libembryo-dev
+Source: embryo
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 127
+Depends: libembryo1 (= 1.7.7-1), pkg-config
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/embryo/libembryo-dev_1.7.7-1_armel.deb
+Size: 31748
+SHA256: 4088def31b105f02167eb02d0ba5ee179b156b7e9ef0bdb402603d0530f3f0dd
+SHA1: 13962dfbb6cdd57b27127174cbb763f874534d7c
+MD5sum: cce1fc58623e39a5a157ba9cf0dc27fa
+Description: Development files for libembryo1
+ Embryo is primarily a shared library that gives you an API to load
+ and control interpreted programs compiled into an abstract machine
+ bytecode that it understands.  This abstract (or virtual) machine is
+ similar to a real machine with a CPU, but it is emulated in
+ software.
+ .
+ This package contains headers and static libraries for Embryo.
+
+Package: libembryo-doc
+Source: embryo
+Version: 1.7.7-1
+Architecture: all
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 317
+Enhances: libembryo-dev
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: doc
+Filename: pool/main/e/embryo/libembryo-doc_1.7.7-1_all.deb
+Size: 93144
+SHA256: dbfba4fd6a085f4e7cbe62fc4a2259f09cc898274c3ebf60e74309a2697499ac
+SHA1: 590f0c6d3279bbdbc34d970ab57f055b69cee7b1
+MD5sum: f6d28126c9e3db9b11fecc2a4a7ce1ec
+Description: libembryo1 development documentation
+ Embryo is primarily a shared library that gives you an API to load
+ and control interpreted programs compiled into an abstract machine
+ bytecode that it understands.  This abstract (or virtual) machine is
+ similar to a real machine with a CPU, but it is emulated in
+ software.
+ .
+ This package provides development documentation for Embryo.
+
+Package: libembryo1
+Source: embryo
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 82
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4)
+Suggests: libembryo-bin
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/embryo/libembryo1_1.7.7-1_armel.deb
+Size: 25272
+SHA256: bd8cf1e9cf5ef174f9e90038a17f19261608af02383ac2d78225f9f3ea9f20f0
+SHA1: 19a972b57acfd10ab1f54e3cea113ac093b133ff
+MD5sum: 182f1a0c55f40f2033c8f4000f22c718
+Description: SMALL-based abstract machine (AMX) bytecode interpreter
+ Embryo is primarily a shared library that gives you an API to load
+ and control interpreted programs compiled into an abstract machine
+ bytecode that it understands.  This abstract (or virtual) machine is
+ similar to a real machine with a CPU, but it is emulated in
+ software.  The architecture is simple and is the same as the
+ abstract machine (AMX) in the SMALL language as it is based on
+ exactly the same code. Embryo has modified the code for the AMX
+ extensively and has made it smaller and more portable.  It is VERY
+ small.  The total size of the virtual machine code AND header files
+ is less than 2500 lines of code.  It includes the floating point
+ library support by default as well.  This makes it one of the
+ smallest interpreters around, and thus makes is very efficient to
+ use in code.
+ .
+ See also http://www.compuphase.com/small.htm for details on SMALL.
+
+Package: libevas-dbg
+Source: evas
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 3963
+Depends: libevas1 (= 1.7.7-1)
+Homepage: http://www.enlightenment.org
+Priority: extra
+Section: debug
+Filename: pool/main/e/evas/libevas-dbg_1.7.7-1_armel.deb
+Size: 1449690
+SHA256: 8888377bbdc38aafdb350c43b259390b214cd662c50c617f1e75ae265204705b
+SHA1: 0a1e90c51750d2007cd648b7f0672ceeb930aebd
+MD5sum: 7777be63df0a1d78dca25ecaf5bf79eb
+Description: enlightenment advanced canvas library
+ Evas is an advanced canvas library, providing six engines for rendering: X11,
+ OpenGL (hardware accelerated), DirectFB, the framebuffer, Microsoft Windows
+ and Qtopia.
+ .
+ This package contains unstripped shared libraries. It is provided primarily
+ to provide a backtrace with names in a debugger, this makes it somewhat
+ easier to interpret core dumps. The libraries are installed in
+ /usr/lib/debug and are automatically used by gdb.
+
+Package: libevas-dev
+Source: evas
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 1835
+Depends: libevas1 (= 1.7.7-1), libjpeg-dev, libx11-dev, libfreetype6-dev, libfontconfig1-dev, libeet-dev (>= 1.7.4), libeina-dev (>= 1.6.0), libfribidi-dev, pkg-config
+Suggests: libevas-doc
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/evas/libevas-dev_1.7.7-1_armel.deb
+Size: 587882
+SHA256: db75384ce921a724991f41d8e40bb7ab863cc691ab0738a0492ebf0ae686fd6e
+SHA1: 7489d019288f743868ba2586f1065d7d4228f9a9
+MD5sum: dd82d015e036a8a37fbe18e813d79916
+Description: Enlightenment DR17 advanced canvas library development files
+ Evas is an advanced canvas library, providing six engines for rendering: X11,
+ OpenGL (hardware accelerated), DirectFB, the framebuffer, Microsoft Windows
+ and Qtopia.
+ .
+ Due to its simple API, evas can be developed with rapidly, and cleanly.
+ .
+ This package provides headers and static libraries required to develop against
+ evas.
+
+Package: libevas-doc
+Source: evas
+Version: 1.7.7-1
+Architecture: all
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 12742
+Enhances: libevas-dev
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: doc
+Filename: pool/main/e/evas/libevas-doc_1.7.7-1_all.deb
+Size: 8568056
+SHA256: f14a9d48c09c1d9d29eaf067afde73dc67dfbca8157994cff93716f9da567758
+SHA1: d7858881cc4fd6c2df13cd73cd0927ff69d072f7
+MD5sum: d4b483a2bf507f89212842a08e1d0926
+Description: Evas API Documentation
+ Evas is an advanced canvas library, providing six engines for rendering: X11,
+ OpenGL (hardware accelerated), DirectFB, the framebuffer, Microsoft Windows
+ and Qtopia.
+ Due to its simple API, evas can be developed with rapidly, and cleanly.
+ .
+ This package provides development documentation (html and manpages) for the
+ Evas library.
+
+Package: libevas1
+Source: evas
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 1243
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libeet1 (>= 1.1.0), libeina1 (>= 1.7.7), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif4 (>= 4.1.4), libglib2.0-0 (>= 2.12.0), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), librsvg2-2 (>= 2.14.4), libtiff4 (>> 3.9.5-3~), zlib1g (>= 1:1.1.4)
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/evas/libevas1_1.7.7-1_armel.deb
+Size: 460762
+SHA256: 770444f918f6d26da05514708de9d3137b3ca58bb9b5470b62bc5d692fe35ea0
+SHA1: 16f5305cc6f26d328dd3d84203276f960149123a
+MD5sum: f0300e8831e0567715bce1f8ef4deb82
+Description: Enlightenment DR17 advanced canvas library
+ Evas is an advanced canvas library, providing six engines for rendering: X11,
+ OpenGL (hardware accelerated), DirectFB, the framebuffer, Microsoft Windows
+ and Qtopia.
+ .
+ Due to its simple API, evas can be developed with rapidly, and cleanly.
+ .
+ This package contains the core library and a set of image loaders and/or savers
+ for various formats: eet, gif, jpeg, png, svg, tiff and xpm
+
+Package: libevas1-engine-fb
+Source: evas
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 88
+Depends: libc6 (>= 2.4), libeet1 (>= 1.0.0), libeina1 (>= 1.0.0~beta), libevas1 (>= 1.7.7), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libevas1-engines-core
+Conflicts: libevas-0.9.9.050a-engines-extras
+Replaces: libevas-engines-extras
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/evas/libevas1-engine-fb_1.7.7-1_armel.deb
+Size: 30998
+SHA256: 24c7f42813fde4cd3bce2d15645b71c46431d46058e9e72b9dcffcc9acb04cae
+SHA1: ca3b5aef411f34994def786f4a468a34fdcabb24
+MD5sum: dda58a7810cb3b06077fb95ac385c536
+Description: Evas module providing the Framebuffer engine
+ Evas is an advanced canvas library, providing six engines for rendering: X11,
+ OpenGL (hardware accelerated), DirectFB, the framebuffer, Microsoft Windows
+ and Qtopia.
+ Due to its simple API, evas can be developed with rapidly, and cleanly.
+ .
+ This package contains the framebuffer Evas engine module.
+
+Package: libevas1-engines-core
+Source: evas
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 82
+Depends: libc6 (>= 2.4), libeet1 (>= 1.0.0), libeina1 (>= 1.2.0), libevas1 (>= 1.7.7), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2)
+Conflicts: libevas-0.9.9.050a-engines
+Replaces: libevas-engines
+Provides: libevas1-engine-buffer, libevas1-engine-software-generic
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/evas/libevas1-engines-core_1.7.7-1_armel.deb
+Size: 27422
+SHA256: dc4d0615191083977e4b1ed3312376957228527c914aa86c9eab650fc81f51dc
+SHA1: 0a20da54365effa3a365bf0806adcc5e42933d54
+MD5sum: 2106862b8ec863ddba3da5b5960ae933
+Description: Evas module providingg the framebuffer render engine
+ Evas is an advanced canvas library, providing six engines for rendering: X11,
+ OpenGL (hardware accelerated), DirectFB, the framebuffer, Microsoft Windows
+ and Qtopia.
+ Due to its simple API, evas can be developed with rapidly, and cleanly.
+ .
+ This package contains the core Evas engine modules:
+  - buffer
+  - software/genenric
+
+Package: libevas1-engines-x
+Source: evas
+Version: 1.7.7-1
+Architecture: armel
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Installed-Size: 287
+Depends: libc6 (>= 2.4), libeet1 (>= 1.0.0), libeina1 (>= 1.0.0~beta), libevas1 (>= 1.7.7), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgl1-mesa-glx | libgl1, libx11-6, libxext6, libxrender1, libevas1-engines-core
+Conflicts: libevas-0.9.9.050a-engines
+Replaces: libevas-engines, libevas-engines-extras
+Provides: libevas1-engine-gl-x11, libevas1-engine-software-x11
+Homepage: http://www.enlightenment.org
+Priority: optional
+Section: libs
+Filename: pool/main/e/evas/libevas1-engines-x_1.7.7-1_armel.deb
+Size: 113044
+SHA256: fd8ca2bf79d2171030adf6a6d03fad8dd76ddb05627417af4a60bcf52e93e3c6
+SHA1: c53d9887b43941a76f0a4c43e409e2a5d065f6b7
+MD5sum: afb53e8949a071e40146e1377a4b28c2
+Description: Evas module providing the X11 engines
+ Evas is an advanced canvas library, providing six engines for rendering: X11,
+ OpenGL (hardware accelerated), DirectFB, the framebuffer, Microsoft Windows
+ and Qtopia.
+ Due to its simple API, evas can be developed with rapidly, and cleanly.
+ .
+ This package contains the X11-related Evas engine modules:
+  - GL/X11
+  - Software/X11 (Xlib/XCB)
+

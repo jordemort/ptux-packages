@@ -1,0 +1,28 @@
+Origin: ptux packages
+Label: ptux packages
+Codename: unstable
+Date: Fri, 26 Jul 2013 04:22:59 UTC
+Architectures: armel
+Components: main
+Description: extra packages for Pragmatux
+MD5Sum:
+ 0bf10cb10c31284bcfac0181d2e0a586 54245 main/binary-armel/Packages
+ e5df9d27c11f3ceac140fe37c04454cb 11054 main/binary-armel/Packages.gz
+ 2e5f2f212f437ea9fa7c2b411ab4ffc8 121 main/binary-armel/Release
+ 709091814caaea190b6bb9c3ebd6d8b7 16931 main/source/Sources
+ 07fc9bfa07f5a827d9add80f06fc99c5 4881 main/source/Sources.gz
+ 43d4f47237bb57ee47b4f9300f5de92f 122 main/source/Release
+SHA1:
+ 417dac6a3ce22d9764bdf9c648271bccb163be1b 54245 main/binary-armel/Packages
+ 3bb09db653e4febed856dbfa56af493b17af1493 11054 main/binary-armel/Packages.gz
+ 6aa25c576ad99c8f9ad8b2f6d947c611b9f01f1e 121 main/binary-armel/Release
+ ffbaea51dbde44d0085880b3872ed4e97547f476 16931 main/source/Sources
+ f098fe70e6e23890904644212beca8078dc446dc 4881 main/source/Sources.gz
+ 231fcd5090a8094294cb3ba92fab552bab1da833 122 main/source/Release
+SHA256:
+ 4a195b92b462784a17d9f1cef6a4ad04ad756975ad403d020b85d3d4a5346166 54245 main/binary-armel/Packages
+ 4e1a70dbaa3ca882d70832042a260ce32af2a15740b3baadb6fd2157c4018034 11054 main/binary-armel/Packages.gz
+ da13ba91c1bb3d65e9b6a13e93bb3881f44cbe6b43a26241de30852a7837bd4d 121 main/binary-armel/Release
+ 107c7dee02829196bfd86292838a9e32567876f93d39a563a1b33e0dee1b0511 16931 main/source/Sources
+ ad38c18e88b391989b245f9e354ea0db622d62efd5aaa276038b4ce65429bbee 4881 main/source/Sources.gz
+ bfd3045ca0f81dafadf05773ef0cef6ff30e9817f3090017687313b9a8280d15 122 main/source/Release

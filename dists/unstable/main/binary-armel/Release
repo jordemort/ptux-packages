@@ -1,0 +1,5 @@
+Component: main
+Origin: ptux packages
+Label: ptux packages
+Architecture: armel
+Description: extra packages for Pragmatux

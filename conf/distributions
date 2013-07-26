@@ -1,0 +1,8 @@
+Origin: ptux packages
+Label: ptux packages
+Description: extra packages for Pragmatux
+Codename: unstable
+Architectures: armel source
+Components: main
+AlsoAcceptFor: wheezy experimental
+
