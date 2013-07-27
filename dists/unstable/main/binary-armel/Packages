@@ -1,3 +1,26 @@
+Package: dillo
+Version: 3.0.2-2
+Architecture: armel
+Maintainer: Axel Beckert <abe@debian.org>
+Installed-Size: 1089
+Depends: libc6 (>= 2.11), libfltk1.3 (>= 1.3.0), libgcc1 (>= 1:4.4.0), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.4.0), libx11-6, zlib1g (>= 1:1.1.4), wget
+Provides: www-browser
+Homepage: http://www.dillo.org/
+Priority: extra
+Section: web
+Filename: pool/main/d/dillo/dillo_3.0.2-2_armel.deb
+Size: 490814
+SHA256: 40a46fe79203734065d9dd09ef3469d7c47dc32651383727f0e2b93cf02a33f9
+SHA1: 18f196210e284fecc393242325361976d80a98e3
+MD5sum: 059102fc413e8406acda063cdcb1b318
+Description: Small and fast web browser
+ Dillo 3 is a graphical multi-platform web browser known for its speed
+ and small footprint. It is based on version 1.3 of the Fast and Light
+ Toolkit (FLTK) in version 1.3
+ .
+ It aims to be small in resources, stable, developer-friendly, usable,
+ very fast, and extensible.
+
 Package: e17
 Version: 0.17.3-1
 Architecture: armel
